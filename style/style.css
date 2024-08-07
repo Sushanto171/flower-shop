@@ -9,6 +9,9 @@
   *{margin: 0;
 padding: 0;
 }
+.margin{
+    margin: auto 200px;
+}
   /* header style */
   header{
     margin-right: 86px;
@@ -41,8 +44,115 @@ header div div a{
     margin-top: 30px;
     width: max-content;
 }
+header div div p{
+    padding: 10px;
+    line-height: 25px;
+}
 header div:nth-child(2) {
     padding: 0;
+}
+/* our featured section */
+#our-feature{
+    text-align: center;
+    margin-top: 50px;
+}
+#our-feature h2{
+    font-size:40px ;
+    font-weight: 900;
+}
+#our-feature p{
+    line-height: 30px;
+    width: 594px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#flower-card{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.card img{
+    max-width: 100%;
+    height: 418px;
+    width: 310px;
+}
+.card div{
+    padding: 110px 76px 0 76px;
+    border-radius: 50% 50% 0 0;
+    width: 200px;
+}
+.card h3{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px auto;
+}
+#card-1 div{
+    background-color:rgba(167, 33, 98, 0.15) ;
+}
+#card-2 div{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+#card-3 div{
+    background-color: rgba(71, 125, 17, 0.15)
+}
+/* Service section */
+.service{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(39, 39, 39, 0.05) ;
+    margin: 50px 100px;
+}
+.service img {
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+}
+.service div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+/* offers section */
+#offers-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color:rgba(229, 84, 115, 0.05) ;
+}
+#offers-section a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(229, 84, 115, 1);
+    padding: 20px 43px;
+    border-radius: 8px;
+    margin-top: 30px;
+    display: block;
+    width: max-content;
+}
+#offers-section img{
+    width: 318px;
+    height: 420px;
+}
+/* instagram */
+#title{
+    text-align: center;
+    margin: 30px auto;
+}
+#insta-images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 50px;
+    padding-top: 0;
+    margin: auto 80px;
+}
+#insta-images img{
+    width:342px ;
+    height: 342px;
+    max-width: 100%;
 }
 @media screen and (max-width:576px) {
     header{
